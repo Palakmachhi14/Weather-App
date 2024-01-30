@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url('images2.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: contrast(120%) brightness(80%);
+}
+
+.container{
+    width: 700px;
+    margin: 60px auto;
+    padding: 40px;
+}
+
+.inputs{
+    padding: 10px 0;
+    text-align: center;
+    justify-content: center;
+    background: rgb(14 14 14 / 52%);
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+}
+
+.inputs input[type="text"]
+{
+    height: 40px;
+    width: 500px;
+    background: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    border: 2px;
+    border-radius: 3px;
+    margin-right: 4px;
+}
+
+.inputs input[type="submit"]{
+    height: 25px;
+    width: 100px;
+    background: #cfdce3;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+.display{
+    text-align: center;
+    width: 620px;
+    color: #e8eeeb;
+}
+
+.wrapper{
+    margin: 0 9rem;
+    background-color: rgb(14 14 14 / 52%);
+    height: 300px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.wrapper h2{
+    padding: 20px 0;
+    text-align: center;
+    background: #000000;
+    color: white;
+    border-radius: 10px;
+}
+
+.wrapper p{
+    margin: 20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color: #ffffff;
+    font-size: 23px;
+}
+
+.wrapper h2 span{
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.wrapper p span{
+    color: #eeeeee;
+    font-size: 25px;
+}
